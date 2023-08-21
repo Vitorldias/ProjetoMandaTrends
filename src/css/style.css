@@ -638,19 +638,19 @@
     margin-top: 4%;
     width: 350px;  
     left: 10%; 
-    top: 24rem;
+    top: 25rem;
   }
   
   .sec2 {
     width: 300px;
-    top: 45rem;
+    top: 46.5rem;
     left: 14%;
     
   }
   
   .sec3 {
     width: 300px;
-    top: 62.5rem;
+    top: 64rem;
     left: 14%; 
   }
   
@@ -675,24 +675,25 @@
     
   .carousel1 {
     left: 51%;
-    top: 17rem;
+    top: 18rem;
     width: 85%;
   }
   
   .carousel2 {
-   top: 38.5rem;
+   top: 40rem;
    left: 50%;
    width: 16rem;
   }
   
   .carousel3 {
-    top: 56rem;
+    top: 57.5rem;
     left: 50%;
   }
   
   /* footer */
   
   .underbar{
+    top: 68.5rem;
     width: 92.5%;
     height: 80px;
    left: 1.09rem;
@@ -700,7 +701,7 @@
   
   .mandarimLogo{
     left: 25%;
-    top: 68rem;
+    top: 70rem;
     width: 200px;
   
   }
@@ -708,6 +709,7 @@
   .copR {
   width: 300px;
   left: 10%;
+  top: 73rem;
 
   
 
