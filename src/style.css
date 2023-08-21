@@ -5,6 +5,7 @@
  @media screen and (max-width: 1920px) {
 
   .banner {
+    width: 91.3vw;
     height: 200px;
     margin-left: 60px;
   }
@@ -233,13 +234,14 @@
      font-size: 2rem;
   }
  
- 
+}
 
  @media screen and (max-width: 1200px) {
 
   .banner {
     height: 120px;
     margin-left: 20px;
+    width: 90.5vw;
   }
   
   .mTrends {
@@ -425,9 +427,6 @@
     margin: 0;
   }
 
-  .carousel3 img {
-    
-  }
   
   /* footer */
   
@@ -630,7 +629,7 @@
 
 
   .txthead {
-    left: 70%;
+    left: 69%;
   }
   
   /* body */
@@ -644,34 +643,34 @@
   
   .sec2 {
     width: 300px;
-    top: 44rem;
+    top: 45rem;
     left: 14%;
     
   }
   
   .sec3 {
     width: 300px;
-    top: 62rem;
+    top: 62.5rem;
     left: 14%; 
   }
   
   .principal > .sec1 > p {
-    width: 300px;
+    width: 85%
   }
 
   .principal > .sec1 > h1 {
     font-size: 1.1rem;
-    width: 360px;
+    width: 85%;
   }
 
   .principal > .sec2 > h2 {
     font-size: 0.9rem;
-    width: 300px;
+    width: 90%;
   } 
   
   .principal > .sec3 > h2 {
     font-size: 0.9rem;
-    width: 300px;
+    width: 90%;
   } 
     
   .carousel1 {
@@ -681,13 +680,13 @@
   }
   
   .carousel2 {
-   top: 37.5rem;
+   top: 38.5rem;
    left: 50%;
    width: 16rem;
   }
   
   .carousel3 {
-    top: 55.5rem;
+    top: 56rem;
     left: 50%;
   }
   
@@ -695,20 +694,22 @@
   
   .underbar{
     width: 92.5%;
+    height: 80px;
    left: 1.09rem;
   }
   
   .mandarimLogo{
     left: 25%;
     top: 68rem;
+    width: 200px;
   
   }
 
   .copR {
   width: 300px;
-  left: 25%;
+  left: 10%;
+
   
 
 }
 }
- }
