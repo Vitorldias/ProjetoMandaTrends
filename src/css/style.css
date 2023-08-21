@@ -644,14 +644,14 @@
   .sec2 {
     width: 300px;
     top: 46.5rem;
-    left: 14%;
+    left: 15%;
     
   }
   
   .sec3 {
     width: 300px;
     top: 64rem;
-    left: 14%; 
+    left: 15%; 
   }
   
   .principal > .sec1 > p {
@@ -707,8 +707,8 @@
   }
 
   .copR {
-  width: 400px;
-  left: 10%;
+  width: 350px;
+  left: 10px;
   top: 73rem;
 
   
