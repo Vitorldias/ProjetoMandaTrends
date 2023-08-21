@@ -634,6 +634,10 @@
   
   /* body */
    
+  .principal {
+    height: 65rem;
+  }
+
   .sec1 {
     margin-top: 4%;
     width: 350px;  
@@ -643,14 +647,14 @@
   
   .sec2 {
     width: 300px;
-    top: 46.5rem;
+    top: 47rem;
     left: 15%;
     
   }
   
   .sec3 {
     width: 300px;
-    top: 64rem;
+    top: 65.5rem;
     left: 15%; 
   }
   
@@ -686,14 +690,14 @@
   }
   
   .carousel3 {
-    top: 57.5rem;
+    top: 59rem;
     left: 50%;
   }
   
   /* footer */
   
   .underbar{
-    top: 68.5rem;
+    top:70.5rem;
     width: 92.5%;
     height: 80px;
    left: 1.09rem;
@@ -701,15 +705,15 @@
   
   .mandarimLogo{
     left: 25%;
-    top: 70rem;
+    top: 72rem;
     width: 200px;
   
   }
 
   .copR {
   width: 350px;
-  left: 10px;
-  top: 73rem;
+  left: 15px;
+  top: 75rem;
 
   
 
