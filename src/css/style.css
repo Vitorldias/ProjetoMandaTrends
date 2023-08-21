@@ -647,15 +647,15 @@
   
   .sec2 {
     width: 300px;
-    top: 47rem;
-    left: 15%;
+    top: 47.5rem;
+    left: 16%;
     
   }
   
   .sec3 {
     width: 300px;
     top: 65.5rem;
-    left: 15%; 
+    left: 16%; 
   }
   
   .principal > .sec1 > p {
@@ -684,7 +684,7 @@
   }
   
   .carousel2 {
-   top: 40rem;
+   top: 41rem;
    left: 50%;
    width: 16rem;
   }
@@ -711,8 +711,8 @@
   }
 
   .copR {
-  width: 350px;
-  left: 15px;
+  width: 90%;
+  left: 5%;
   top: 75rem;
 
   
