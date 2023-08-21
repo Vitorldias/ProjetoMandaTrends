@@ -1,0 +1,262 @@
+@charset "UTF-O8";
+
+:root {
+--color1: #e9492a;
+--color2: #e72357;
+--color3:#ffffff;
+--color4:#e9e9e96e;
+--color5:#acacac94;
+}
+
+/* header */
+
+.banner {
+  background-image: linear-gradient(to right, var(--color1), var(--color2));
+  background-size: 100vw;
+  width: 92%;
+  height: 120px;
+  background-repeat: no-repeat;
+  margin: 30px 20px ;
+  padding-left: 1rem; 
+
+
+}
+
+.mTrends {
+  position: absolute;
+  top: 5rem;
+  left: 4rem;
+}
+
+.arrow {
+  position: absolute;
+  top: 2.8rem;
+  left: 23rem;
+}
+
+.grid {
+  position: absolute;
+  top: 3rem;
+  left: -0.5rem;
+}
+
+.mulher {
+  position: absolute;
+  top: 4.1rem; 
+  left: 22rem; 
+  
+}
+
+.triangle {
+  position: absolute;
+  top: 2rem; 
+  left: 41rem;
+}
+
+.dots{
+  position: absolute;
+  top: 7.5rem; 
+  left: 20rem;
+}
+
+.zigzag {
+  position: absolute;
+  top: 8rem; 
+  left: 40rem; 
+background-attachment: fixed;
+}
+
+.txthead {
+  margin: 0;
+  padding: 0;
+  width: 10rem; 
+  height: 4rem; 
+  position: absolute; 
+  top: 3.3rem; 
+  left: 70%; 
+  text-align: right;
+  color: var(--color3);
+}
+
+
+/* body */
+
+body {
+  background-color:var(--color4);
+  width: auto;
+  height: auto;
+}
+
+
+.principal {
+  width: 92.2vw;
+  height: 45rem;
+  margin-left:  20px;
+  margin-top: -20px;
+  background-color: var(--color3);  
+}
+
+.principal > .sec1 > p {
+  margin: 0;
+  padding: 0;
+  width: 30rem;
+}
+
+.principal > .sec1 > h1 {
+  margin: 0;
+  padding: 0;
+}
+
+ .principal > .sec1 > h6 {
+  margin: 10px 0 0;
+  padding: 0;
+  color: var(--color5);
+}
+
+
+.sec1 {
+  position: absolute;
+  top: 28rem;
+  left: 11.5%;
+  width: 34rem;
+  font-size: 0.8rem;
+}
+  
+.sec2 {
+  position: absolute;
+  top: 48.5rem;
+  left:5rem;
+  width: 18rem;
+}
+
+.principal > .sec2 > h2 {
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 0;
+} 
+
+.principal > .sec2 > h6 {
+  margin: 10px 0px 0px;
+  padding: 0;
+  color: var(--color5);
+} 
+
+.sec3 {
+  position: absolute;
+  top: 48.5rem;
+  left: 22.5rem;
+  width: 18rem;
+}
+
+.principal > .sec3 > h2 {
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 0;
+} 
+
+.principal > .sec3 > h6 {
+  margin: 10px 0px 0px;
+  padding: 0;
+  color: var(--color5);
+}
+  
+.carousel1 {
+  position: relative;
+  width: 65%;
+  height: 35%;
+  top: 10rem;
+  left: 22rem;
+  transform: translate(-50%, -50%);  
+}
+
+.carousel1 img {
+position: absolute;
+width: 100%;
+height: 100%;
+object-fit: cover;
+opacity: 0;
+transition: opacity 1800ms;
+}
+
+.carousel1 img.selected {
+  opacity: 1;
+}
+
+.carousel2 {
+  position: relative;
+  width: 350px;
+  height: 300px;
+  max-height: 350px;
+  top: 42rem;
+}
+
+.carousel2 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 800ms;
+}
+
+.carousel2 img.selected {
+  opacity: 1;
+}
+
+.carousel3 {
+  width: 350px;
+  height: 300px;
+  position: relative;
+  max-height: 350px;
+  top: 42rem;
+  left: 31rem;
+
+}
+
+
+.carousel3 img {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ opacity: 0;
+ transition: opacity 800ms;
+}
+
+.carousel3 img.selected {
+  opacity: 1;
+ }
+/* footer */
+
+.underbar{
+position: absolute;
+width: 92vw;
+top: 57rem;
+height: 100px;
+}
+
+.mandarimLogo{
+position: absolute;
+top: 56.5rem;
+left: 14rem;
+z-index: 1;
+
+}
+
+footer {
+  width: 90vw;
+  height: 100px;
+}
+
+.copR {
+  position: absolute;
+  top: 62rem;
+  left: 7rem;
+  text-align: center;
+
+}
+ button {
+  all: unset;
+  text-decoration: underline;
+  cursor: pointer;
+ }
